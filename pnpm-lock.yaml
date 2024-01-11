@@ -1326,6 +1326,31 @@ importers:
         specifier: 5.3.2
         version: 5.3.2
 
+  packages/forge/blocks/qrcode:
+    dependencies:
+      qrcode:
+        specifier: ^1.5.3
+        version: 1.5.3
+    devDependencies:
+      '@typebot.io/forge':
+        specifier: workspace:*
+        version: link:../../core
+      '@typebot.io/lib':
+        specifier: workspace:*
+        version: link:../../../lib
+      '@typebot.io/tsconfig':
+        specifier: workspace:*
+        version: link:../../../tsconfig
+      '@types/qrcode':
+        specifier: ^1.5.3
+        version: 1.5.3
+      '@types/react':
+        specifier: 18.2.15
+        version: 18.2.15
+      typescript:
+        specifier: 5.3.2
+        version: 5.3.2
+
   packages/forge/blocks/zemanticAi:
     devDependencies:
       '@typebot.io/forge':
