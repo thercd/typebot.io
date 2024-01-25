@@ -6,4 +6,5 @@ export const enabledBlocks = [
   'chat-node',
   'me-chama-no-zap',
   'qr-code',
+  'mistral',
 ] as const
