@@ -1233,14 +1233,11 @@ importers:
         specifier: 5.3.2
         version: 5.3.2
 
-  packages/forge/blocks/mistral:
+  packages/forge/blocks/meChamaNoZap:
     dependencies:
-      '@mistralai/mistralai':
-        specifier: ^0.0.10
-        version: 0.0.10
-      ai:
-        specifier: 2.2.31
-        version: 2.2.31(react@18.2.0)(solid-js@1.7.8)(svelte@4.2.9)(vue@3.4.15)
+      got:
+        specifier: 12.6.0
+        version: 12.6.0
     devDependencies:
       '@typebot.io/forge':
         specifier: workspace:*
@@ -1258,11 +1255,14 @@ importers:
         specifier: 5.3.2
         version: 5.3.2
 
-  packages/forge/blocks/meChamaNoZap:
+  packages/forge/blocks/mistral:
     dependencies:
-      got:
-        specifier: 12.6.0
-        version: 12.6.0
+      '@mistralai/mistralai':
+        specifier: ^0.0.10
+        version: 0.0.10
+      ai:
+        specifier: 2.2.31
+        version: 2.2.31(react@18.2.0)(solid-js@1.7.8)(svelte@4.2.9)(vue@3.4.15)
     devDependencies:
       '@typebot.io/forge':
         specifier: workspace:*
@@ -1404,6 +1404,12 @@ importers:
       '@typebot.io/forge-repository':
         specifier: workspace:*
         version: link:../repository
+      '@typebot.io/me-chama-no-zap-block':
+        specifier: workspace:*
+        version: link:../blocks/meChamaNoZap
+      '@typebot.io/mistral-block':
+        specifier: workspace:*
+        version: link:../blocks/mistral
       '@typebot.io/openai-block':
         specifier: workspace:*
         version: link:../blocks/openai
